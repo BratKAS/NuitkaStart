@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="215f9674-b014-4fb0-b829-c210fb2a5088" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/with_c_module.py" afterDir="false" />
+    <list default="true" id="215f9674-b014-4fb0-b829-c210fb2a5088" name="Changes" comment="пытаюсь разобраться с Nuitka">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpython-312-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpython-312-darwin.so" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/with_c_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/with_c_module.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +92,28 @@
       <option name="project" value="LOCAL" />
       <updated>1721326723590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="пытаюсь разобраться с Nuitka">
+      <option name="closed" value="true" />
+      <created>1721333391294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721333391294</updated>
+    </task>
+    <task id="LOCAL-00003" summary="пытаюсь разобраться с Nuitka">
+      <option name="closed" value="true" />
+      <created>1721333420260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721333420260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="пытаюсь разобраться с Nuitka" />
+    <option name="LAST_COMMIT_MESSAGE" value="пытаюсь разобраться с Nuitka" />
   </component>
 </project>

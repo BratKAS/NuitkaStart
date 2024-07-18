@@ -1,4 +1,9 @@
-text = input('Enter text...\n')
+def main():
+    text = input('Enter text...\n')
 
-with open('output.txt', 'w', encoding='utf-8') as file:
-    file.write(text)
+    with open('output.txt', 'w', encoding='utf-8') as file:
+        file.write(text)
+
+
+if __name__ == 'main':
+    main()

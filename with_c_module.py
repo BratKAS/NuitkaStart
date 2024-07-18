@@ -1,9 +1,11 @@
-import ctypes
-import random
+import importlib.util
+import sys
+from pathlib import Path
 
-random_array = [random.randint(1, 100) for _ in range(1000)]
+module_name = 'main' # Название модуля без изменений
+file_path = Path('./main.cpython-312-darwin.so') # А вот имя файла изменено
 
-# Загрузка модуля на C
-mymodule = ctypes.CDLL('./example.so')
-
-mymodule.run_module()
+spec = importlib.util.spec_from_file_location(module_name, file_path)
+module = importlib.util.module_from_spec(spec)
+sys.modules[module_name] = module
+spec.loader.exec_module(module)
