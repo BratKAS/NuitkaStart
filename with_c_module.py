@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 module_name = 'main' # Название модуля без изменений
-file_path = Path('./main.cpython-312-darwin.so') # А вот имя файла изменено
+file_path = Path('./main.cp312-win_amd64.pyd') # А вот имя файла изменено
 
 spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)

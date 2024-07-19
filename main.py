@@ -5,5 +5,4 @@ def main():
         file.write(text)
 
 
-if __name__ == 'main':
-    main()
+main()
